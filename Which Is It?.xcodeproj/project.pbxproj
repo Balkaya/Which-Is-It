@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A03A86A2232D1F7008A871A /* BirdClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A8692232D1F6008A871A /* BirdClassifier.mlmodel */; };
+		3A03A86D2232D313008A871A /* InsectClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A86C2232D313008A871A /* InsectClassifier.mlmodel */; };
+		3A03A86F2232D4D9008A871A /* VegetationClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A86E2232D4D9008A871A /* VegetationClassifier.mlmodel */; };
+		3A03A8712232D580008A871A /* MushroomClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3A03A8702232D580008A871A /* MushroomClassifier.mlmodel */; };
 		3ABFF4CE2232B3A6002998BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4CD2232B3A6002998BB /* AppDelegate.swift */; };
 		3ABFF4D02232B3A6002998BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4CF2232B3A6002998BB /* ViewController.swift */; };
 		3ABFF4D32232B3A6002998BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABFF4D12232B3A6002998BB /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A03A8692232D1F6008A871A /* BirdClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BirdClassifier.mlmodel; sourceTree = "<group>"; };
+		3A03A86C2232D313008A871A /* InsectClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = InsectClassifier.mlmodel; sourceTree = "<group>"; };
+		3A03A86E2232D4D9008A871A /* VegetationClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VegetationClassifier.mlmodel; sourceTree = "<group>"; };
+		3A03A8702232D580008A871A /* MushroomClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MushroomClassifier.mlmodel; sourceTree = "<group>"; };
 		3ABFF4CA2232B3A6002998BB /* Which Is It?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Which Is It?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABFF4CD2232B3A6002998BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABFF4CF2232B3A6002998BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A03A86B2232D227008A871A /* Classifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3A03A86C2232D313008A871A /* InsectClassifier.mlmodel */,
+				3A03A8692232D1F6008A871A /* BirdClassifier.mlmodel */,
+				3A03A86E2232D4D9008A871A /* VegetationClassifier.mlmodel */,
+				3A03A8702232D580008A871A /* MushroomClassifier.mlmodel */,
+			);
+			path = Classifiers;
+			sourceTree = "<group>";
+		};
 		3ABFF4C12232B3A6002998BB = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +78,7 @@
 		3ABFF4CC2232B3A6002998BB /* Which Is It? */ = {
 			isa = PBXGroup;
 			children = (
+				3A03A86B2232D227008A871A /* Classifiers */,
 				3ABFF4CD2232B3A6002998BB /* AppDelegate.swift */,
 				3ABFF4CF2232B3A6002998BB /* ViewController.swift */,
 				3ABFF4D12232B3A6002998BB /* Main.storyboard */,
@@ -142,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A03A86A2232D1F7008A871A /* BirdClassifier.mlmodel in Sources */,
+				3A03A8712232D580008A871A /* MushroomClassifier.mlmodel in Sources */,
+				3A03A86F2232D4D9008A871A /* VegetationClassifier.mlmodel in Sources */,
 				3ABFF4D02232B3A6002998BB /* ViewController.swift in Sources */,
 				3ABFF4D62232B3A6002998BB /* Which_Is_It_.xcdatamodeld in Sources */,
 				3ABFF4CE2232B3A6002998BB /* AppDelegate.swift in Sources */,
+				3A03A86D2232D313008A871A /* InsectClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
